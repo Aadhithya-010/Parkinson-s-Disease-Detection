@@ -1,0 +1,69 @@
+{
+  "total_images": 831,
+  "overall_counts": {
+    "healthy": 610,
+    "parkinson": 221
+  },
+  "split_counts": {
+    "healthy": {
+      "test": 92,
+      "train": 426,
+      "validate": 92
+    },
+    "parkinson": {
+      "test": 33,
+      "train": 155,
+      "validate": 33
+    }
+  },
+  "imbalance_ratio": 2.76,
+  "unique_channels": [
+    3
+  ],
+  "width_summary": {
+    "count": 831.0,
+    "mean": 236.57,
+    "std": 70.96,
+    "min": 128.0,
+    "25%": 232.0,
+    "50%": 250.0,
+    "75%": 250.0,
+    "max": 560.0
+  },
+  "height_summary": {
+    "count": 831.0,
+    "mean": 270.52,
+    "std": 86.68,
+    "min": 128.0,
+    "25%": 256.0,
+    "50%": 256.0,
+    "75%": 320.0,
+    "max": 560.0
+  },
+  "aspect_ratio_summary": {
+    "count": 831.0,
+    "mean": 0.893,
+    "std": 0.095,
+    "min": 0.781,
+    "25%": 0.781,
+    "50%": 0.906,
+    "75%": 1.0,
+    "max": 1.0
+  },
+  "intensity_stats": {
+    "healthy": {
+      "mean": 49.98300668917229,
+      "std": 58.208117504974794
+    },
+    "parkinson": {
+      "mean": 36.58033807642921,
+      "std": 51.25216254179553
+    }
+  },
+  "plots": {
+    "class_distribution": "/Users/aadhi/Parkinson's Detection/parkinsons-disease-detection/reports/eda/class_distribution.png",
+    "image_dimensions": "/Users/aadhi/Parkinson's Detection/parkinsons-disease-detection/reports/eda/image_dimensions.png",
+    "sample_grid": "/Users/aadhi/Parkinson's Detection/parkinsons-disease-detection/reports/eda/sample_grid.png",
+    "intensity_distribution": "/Users/aadhi/Parkinson's Detection/parkinsons-disease-detection/reports/eda/intensity_distribution.png"
+  }
+}
